@@ -22,8 +22,16 @@ int main() {
     printf("long long int : %d octets\n", sizeof(long long int));
     printf("signed long long int : %d octets\n", sizeof(signed long long int));
     printf("unsigned long long int : %d octets\n\n", sizeof(unsigned long long int));
+
+    printf("float : %d octets\n\n", sizeof(float));
+
+    printf("double : %d octets\n\n", sizeof(double));
+
+    printf("long double : %d octets\n", sizeof(long double));
+
     
     return 0;
 } 
+
 
 
