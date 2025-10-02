@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    unsigned int d = 0xF0008000; 
+    unsigned int d = 0xF00125002; 
     int nb_bits = sizeof(d) * 8;  
     int pos1 = 4;
     int pos2 = 20;
@@ -21,3 +21,4 @@ int main(void) {
 
     return 0;
 }
+
