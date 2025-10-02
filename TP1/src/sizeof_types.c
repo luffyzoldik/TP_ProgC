@@ -10,5 +10,5 @@ int main() {
     printf("short : %d octets\n", sizeof(short));
     printf("signed short : %d octets\n", sizeof(signed short));
     printf("unsigned short : %d octets\n", sizeof(unsigned short));
-
-    
+    return 0;
+} 
