@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main() {
@@ -8,14 +9,13 @@ int main() {
         if (i % 11 == 0) {
             continue;
         }
-        
+    
         if (i % 5 == 0 || i % 7 == 0) {
+            if (somme + i > 5000) {
+                printf("La somme va depasser 5000, on arrete !\n");
+                break;
+            }
             somme = somme + i;
-        }
-        
-        if (somme > 5000) {
-            printf("La somme a depasse 5000 !\n");
-            break;
         }
     }
     
