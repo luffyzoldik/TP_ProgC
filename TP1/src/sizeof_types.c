@@ -9,7 +9,7 @@ int main() {
 
     printf("short : %d octets\n", sizeof(short));
     printf("signed short : %d octets\n", sizeof(signed short));
-    printf("unsigned short : %d octets\n", sizeof(unsigned short));
+    printf("unsigned short : %d octets\n\n", sizeof(unsigned short));
     
     printf("int : %d octets\n", sizeof(int));
     printf("signed int : %d octets\n", sizeof(signed int));
@@ -22,6 +22,8 @@ int main() {
     printf("long long int : %d octets\n", sizeof(long long int));
     printf("signed long long int : %d octets\n", sizeof(signed long long int));
     printf("unsigned long long int : %d octets\n\n", sizeof(unsigned long long int));
+    
     return 0;
 } 
+
 
