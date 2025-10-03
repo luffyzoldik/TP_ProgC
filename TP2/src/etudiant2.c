@@ -41,9 +41,7 @@ int main(void) {
     strcpy(etudiants[4].adresse, "3, Place Bellecour, Lyon");
     etudiants[4].note_prog = 17.2;
     etudiants[4].note_sys = 15.4;
-
-    printf("===== Informations des étudiant.e.s =====\n\n");
-
+    
     for (int i = 0; i < 5; i++) {
         printf("Étudiant.e %d :\n", i + 1);
         printf(" Nom      : %s\n", etudiants[i].nom);
@@ -51,8 +49,8 @@ int main(void) {
         printf(" Adresse  : %s\n", etudiants[i].adresse);
         printf(" Note C   : %.2f\n", etudiants[i].note_prog);
         printf(" Note SE  : %.2f\n", etudiants[i].note_sys);
-        printf("-----------------------------\n");
     }
 
     return 0;
 }
+
